@@ -5,6 +5,7 @@ Current Weather is a modern web application which gives current weather status o
 
 ## About
 This is a simple project built using HTML, CSS and JavaScript. For realtime weather information, I have made use of OpenWeatherMap API which is free to use but limited to 60 calls/minute for an unpaid plan.
+
 The following items are displayed on screen:
 - [x] Current temperature of the city
 - [x] Maximum and Minimum temperature

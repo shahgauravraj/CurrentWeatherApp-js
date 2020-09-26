@@ -1,6 +1,6 @@
 # Current Weather
 
-![alt text]()
+![alt text](https://raw.githubusercontent.com/shahgauravraj/CurrentWeatherApp-js/master/assets/undraw_weather_d9t2.png)
 
 Current Weather is a modern web application which give current weather status of different locations based on the name of city provided. It displays current temperature of any city in °C along with actual temperature being felt, humidity and the speed of wind in meter/second formats.
 

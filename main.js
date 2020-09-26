@@ -43,6 +43,9 @@ function displayResults(weather) {
   let humidity = document.querySelector('.current .humidity');
   humidity.innerText = `Humidity: ${weather.main.humidity}%`;
 
+  let pressure = document.querySelector('.current .pressure');
+  pressure.innerText = `Pressure: ${weather.main.pressure} hPa`;
+
   let windSpeed = document.querySelector('.current .wind');
   windSpeed.innerText = `Wind speed: ${weather.wind.speed} m/s`;
 }
@@ -56,5 +59,5 @@ function dateBuilder(d) {
   let month = months[d.getMonth()];
   let year = d.getFullYear();
 
-  return `${day} ${date} ${month} ${year}`;
+  return `${day}, ${date} ${month} ${year}`;
 }

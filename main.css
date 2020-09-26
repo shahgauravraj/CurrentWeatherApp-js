@@ -45,6 +45,10 @@ header input:focus {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+header input:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
 main {
     flex: 1 1 100%;
     padding: 25px 25px 50px;
@@ -56,14 +60,25 @@ main {
 
 .location .city {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
+    text-shadow: 2px 5px rgba(0, 0, 0, 0.6);
     margin-bottom: 5px;
 }
 
 .location .date {
     color: #ffffff;
     font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.current {
+    margin-top: 20px;
+    padding: 25px 25px 25px 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    fill-opacity: 0.7;
+    border-radius: 16px 16px 16px 16px;
+    border-bottom: 1px solid #49b104;
 }
 
 .current .temp {
@@ -98,15 +113,24 @@ main {
     color: #ffffff;
     margin-top: 10px;
     font-style: italic;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
 }
 
 .current .humidity {
     color: #ffffff;
     margin-top: 5px;
     font-style: italic;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .pressure {
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
 }
 
 .current .wind {
     color: #ffffff;
     font-style: italic;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
 }

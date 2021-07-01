@@ -4,7 +4,7 @@
 Current Weather is a modern web application which gives current weather status of different locations based on the name of city provided as an input. It displays current temperature of any city in °C along with actual Feels like temperature of the place, humidity and the speed of wind in meter/second formats.
 
 ## About
-This is a simple project built using HTML, CSS and JavaScript. For realtime weather information, I have made use of OpenWeatherMap API which is free to use but limited to 60 calls/minute for an unpaid plan.
+This is a simple project built using HTML, CSS and JavaScript. For realtime weather information, I have made use of OpenWeatherMap API in the form of REST API which is free to use but limited to 60 calls/minute for an unpaid plan.
 
 The following items are displayed on screen:
 - [x] Current temperature of the city

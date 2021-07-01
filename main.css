@@ -6,7 +6,8 @@
 
 body {
     font-family: 'montserrat', sans-serif;
-    background-image: url('assets/bg2.jpg');
+    /* background-image: url('assets/bg2.jpg'); */
+    background-image: url("https://images.unsplash.com/photo-1546964372-139db89e85bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1951&q=80");
     background-size: cover;
     background-position: top center;
 
@@ -32,9 +33,9 @@ header input {
     padding: 10px 15px;
     border: none;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.3);
+    /* background-color: rgba(255, 255, 255, 0.3); */
     border-radius: 16px 0px 16px 0px;
-    border-bottom: 3px solid #49b104;
+    border-bottom: 2px solid #49b104;
     color: #313131;
     font-size: 20px;
     font-weight: 300;
@@ -70,13 +71,14 @@ main {
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 20px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
 }
 
 .current {
     margin-top: 20px;
     padding: 25px 25px 25px 25px;
     background-color: rgba(255, 255, 255, 0.3);
-    fill-opacity: 0.7;
+    fill-opacity: 0.6;
     border-radius: 16px 16px 16px 16px;
     border-bottom: 1px solid #49b104;
 }
